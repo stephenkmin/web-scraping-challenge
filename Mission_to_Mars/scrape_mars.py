@@ -3,7 +3,7 @@ from splinter import Browser
 import pandas as pd
 import requests
 
-executable_path = {"executable_path": "/Users/skm72/Downloads/chromedriver"}
+executable_path = {"executable_path": "chromedriver.exe"}
 browser = Browser("chrome", **executable_path, headless=False)
 
 def marsNews():
